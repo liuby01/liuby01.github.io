@@ -20,7 +20,4 @@ git add .
 git commit -m "Travis CI Auto Builder at `date +"%Y-%m-%d %H:%M"`"
 
 # Github Pages
-git push --force --quiet "https://${GITHUB_TOKEN}@${GH_REF}" master:master
-
-# Coding Pages
-git push --force --quiet "https://liuby01:${CODING_TOKEN}@${CD_REF}" master:master
+git push --force --quiet "https://${Hexo_Token}@${GH_REF}" master:master
